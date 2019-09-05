@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_dej_tech/HomePage.dart';
 import 'package:flutter_demo_dej_tech/SplashScreen.dart';
+import 'package:flutter_demo_dej_tech/todo_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => SplashScreen(),
         "/home": (context) => MyHomePage(title: "Démo Hot Reload !"),
+        "/list": (context) => TodoList(),
       },
     );
   }

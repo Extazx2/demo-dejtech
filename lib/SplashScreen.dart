@@ -13,7 +13,8 @@ class SplashScreen extends StatelessWidget {
             ),
             RaisedButton(
               onPressed: () {
-                Navigator.of(context).pushNamed("/home"); // On ajoute "/home" à la pile de routes
+                //Navigator.of(context).pushNamed("/home"); // On ajoute "/home" à la pile de routes
+                Navigator.of(context).pushNamedAndRemoveUntil("/home", (Route<dynamic> route) => false);  // on écrase toutes les routes dans la pile, jusque "/home"
               },
               child: Text("Prochain écran"),
             ),
