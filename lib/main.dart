@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_dej_tech/HomePage.dart';
-import 'package:flutter_demo_dej_tech/SplashScreen.dart';
+import 'package:flutter_demo_dej_tech/animated_container.dart';
+import 'package:flutter_demo_dej_tech/home_page.dart';
+import 'package:flutter_demo_dej_tech/splash_screen.dart';
 import 'package:flutter_demo_dej_tech/todo_list_screen.dart';
 
 void main() => runApp(MyApp());
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: "/",
       routes: {
-        "/": (context) => SplashScreen(),
+        "/": (context) => AnimatedContainerPage(),
         "/home": (context) => MyHomePage(title: "Démo Hot Reload !"),
         "/list": (context) => TodoListScreen(),
       },
