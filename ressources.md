@@ -2,6 +2,18 @@
 
 Listing de différentes ressources pour le projet et Flutter.
 
+## Pour débuter
+
+Le blog de Didier Boelens : https://www.didierboelens.com/
+Ses articles sont très bien détaillées en anglais ... et en français ! :visage_légèrement_souriant:
+Il explique assez bien le concept de BLoC notamment, comment mettre en place du Redux etc...
+
+Les Codelabs Google qui traite de Flutter : https://flutter.dev/docs/codelabs
+
+Les Cookbook qui vous expliquent étape par étape comment mettre en places des fonctionnalités avec Flutter : https://flutter.dev/docs/cookbook
+
+Un repo GitHub qui recense un nombre de resources incomensurable (ou whatever mot qui correspond mieux) : https://github.com/Solido/awesome-flutter
+
 ## Doc officielle
 ### Dart
 
@@ -40,6 +52,9 @@ Listing de différentes ressources pour le projet et Flutter.
 [Article sur les Streams et le BLoC pattern 1/2](https://www.didierboelens.com/fr/2018/08/reactive-programming---streams---bloc/)
 
 [Article sur les Streams et le BLoC pattern 2/2](https://www.didierboelens.com/fr/2018/12/reactive-programming---streams---bloc---cas-practiques-dutilisation/)
+
+Un plugin pour éviter de mettre en place le BLoC soit même : https://felangel.github.io/bloc/#/
+La doc est bien détaillée, et des exemples sont présents pour vous apprendre à le mettre en place (page de login avec Firebase entre autres)
 
 ### Programmation Reactive (ReactiveX)
 
